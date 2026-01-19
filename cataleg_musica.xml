@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "cataleg_musica.dtd">
+
+<cataleg_musica>
+
+    <llista_artistes>
+        <artista id="AR1">
+            <nom>Rosalia</nom>
+            <pais>España</pais>
+            <genere>Lirico</genere>
+        </artista>
+
+        <artista id="AR2">
+            <nom>Melendi</nom>
+            <genere>Pop</genere>
+        </artista>
+
+        <artista id="AR3">
+            <nom>Zatu</nom>
+        </artista>
+    </llista_artistes>
+
+    <llista_albumes>
+        <album id="AL1">
+            <titol>Lux</titol>
+            <any>2025</any>
+            <artistes>
+                <artista_ref ref="AR1"/>
+            </artistes>
+        </album>
+
+        <album id="AL2">
+            <titol>Lagrimas desordenadas</titol>
+            <any>2012</any>
+            <artistes>
+                <artista_ref ref="AR2"/>
+            </artistes>
+        </album>
+
+        <album id="AL3">
+            <titol>La odisea del todo</titol>
+            <any>2001</any>
+            <artistes>
+                <artista_ref ref="AR3"/>
+            </artistes>
+        </album>
+    </llista_albumes>
+
+    <llista_recomanacions_albumes>
+        <recomanacio ref="AL1"/>
+        <recomanacio ref="AL3"/>
+    </llista_recomanacions_albumes>
+
+</cataleg_musica>
