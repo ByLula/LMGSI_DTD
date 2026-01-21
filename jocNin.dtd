@@ -12,5 +12,4 @@
 <!ELEMENT regions (regio+)>
 <!ELEMENT regio (nom, nota?)>
 <!ATTLIST regio clima CDATA #REQUIRED>
-<!ATTLIST regio clima CDATA #REQUIRED>
 <!ELEMENT nota (#PCDATA)>
